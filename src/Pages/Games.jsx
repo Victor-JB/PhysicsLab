@@ -5,7 +5,7 @@ import { Card, Button, Icons } from "../components/ui.jsx";
 // Games
 import ProjectileGame from "./Games/ProjectileGame.jsx";
 import BalanceBeamGame from "./Games/RotationalBalance.jsx";
-import PlinkoGame from "./Games/Plinko.jsx";
+import PlinkoGame from "./Games/Plinko/index.jsx";
 
 export default function Games({ onBack }) {
   const [activeGameId, setActiveGameId] = useState(null);
